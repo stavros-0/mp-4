@@ -10,6 +10,11 @@ const WeatherCardWrapper = styled.div `
     margin: 1rem;
     width: 200px;
     border-radius: 10px;
+    background: #FAF9F6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    &:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    }
 `;
 
 export default function WeatherCard(props:Weather){
